@@ -62,24 +62,24 @@ label{
 
  select {
   margin: 10px 0 0 0;
-  width: auto;
+  width: 400px;
   min-height: auto;
 }
 
 
 input[type="text" ]{
-    width: 97%;
+    width: 400px;
     min-height: 2em;
     
 }
 
 input[type="email" ]{
-    width: 97%;
+    width: 400px;
     min-height: 2em;
     
 }
 input[type="number" ]{
-    width:97%;
+    width:400px;
     min-height: 2em;
     
 }
@@ -107,7 +107,7 @@ input[type="submit"] {
   }
 
   form{
-    width: 60vw;
+    width: 400px;
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
