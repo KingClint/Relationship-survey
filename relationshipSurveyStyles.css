@@ -1,0 +1,119 @@
+/*
+body, html{
+    height: 100%;
+}
+*/
+
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/733/456/982/macro-flowers-nature-purple-flowers-wallpaper-preview.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+
+}
+
+h1, p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 1em;
+}
+
+h1 {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 30px;
+}
+
+.content{
+        width: 50%;
+        background-color:#1b1b32;
+        margin-left: auto ;
+        margin-right: auto ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        
+
+}
+
+label{
+    display: block;
+    margin: 0.5em 0;
+}
+ fieldset{
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+ }
+
+ input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+    margin: 10px 0 0 0;
+    width: 4%;
+    min-height: 1em;
+  }
+
+ select {
+  margin: 10px 0 0 0;
+  width: auto;
+  min-height: auto;
+}
+
+
+input[type="text" ]{
+    width: 97%;
+    min-height: 2em;
+    
+}
+
+input[type="email" ]{
+    width: 97%;
+    min-height: 2em;
+    
+}
+input[type="number" ]{
+    width:97%;
+    min-height: 2em;
+    
+}
+
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+
+  textarea {
+    min-height: 4em;
+    width: 60%;
+    
+  }
+
+  form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
