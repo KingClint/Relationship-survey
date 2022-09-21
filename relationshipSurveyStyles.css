@@ -1,8 +1,6 @@
-/*
-body, html{
-    height: 100%;
+* {
+  box-sizing: border-box;
 }
-*/
 
 body{
     background-image: url(https://c4.wallpaperflare.com/wallpaper/733/456/982/macro-flowers-nature-purple-flowers-wallpaper-preview.jpg);
@@ -48,7 +46,7 @@ label{
     border-bottom: 3px solid #3b3b4f;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    
+    overflow: hidden;
  }
 
  input, textarea {
@@ -64,36 +62,38 @@ label{
   margin: 10px 0 0 0;
   width: 400px;
   min-height: auto;
+  overflow: hidden;
 }
 
 
 input[type="text" ]{
     width: 400px;
     min-height: 2em;
-    
+    overflow: hidden;
 }
 
 input[type="email" ]{
     width: 400px;
     min-height: 2em;
-    
+    overflow: hidden;
 }
 input[type="number" ]{
     width:400px;
     min-height: 2em;
-    
+    overflow: hidden;
 }
 
 
 input[type="submit"] {
     display: block;
-    width: 60%;
+    width: 400px;
     margin: 1em auto;
     height: 2em;
     font-size: 1.1rem;
     background-color: #3b3b4f;
     border-color: white;
     min-width: 300px;
+    overflow: hidden;
   }
   
   input[type="file"] {
@@ -109,9 +109,11 @@ input[type="submit"] {
   form{
     width: 400px;
     max-width: 500px;
-    min-width: 300px;
+    min-width: 400px;
     margin: 0 auto;
     padding-bottom: 2em;
+    overflow: auto;
+   
   }
 
   fieldset:last-of-type {
