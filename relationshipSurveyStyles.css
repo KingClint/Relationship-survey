@@ -70,30 +70,33 @@ input[type="text" ]{
     width: 400px;
     min-height: 2em;
     overflow: hidden;
+    box-sizing:border-box;
 }
 
 input[type="email" ]{
     width: 400px;
     min-height: 2em;
     overflow: hidden;
+    box-sizing:border-box;
 }
 input[type="number" ]{
     width:400px;
     min-height: 2em;
     overflow: hidden;
+    box-sizing:border-box;
 }
 
 
 input[type="submit"] {
     display: block;
-    width: 400px;
+    width: 100%;
     margin: 1em auto;
     height: 2em;
     font-size: 1.1rem;
     background-color: #3b3b4f;
     border-color: white;
     min-width: 300px;
-    overflow: hidden;
+    box-sizing:border-box;
   }
   
   input[type="file"] {
@@ -112,10 +115,14 @@ input[type="submit"] {
     min-width: 400px;
     margin: 0 auto;
     padding-bottom: 2em;
-    overflow: auto;
-   
+    
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing:border-box;
   }
 
   fieldset:last-of-type {
     border-bottom: none;
   }
+
+ 
